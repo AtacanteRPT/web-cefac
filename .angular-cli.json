@@ -19,20 +19,32 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "assets/css/demo.css",
+        "assets/css/component.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "assets/js/tabsScript.js",
+        "assets/js/modernizr.custom.js",
+        "assets/js/imagesloaded.pkgd.min.js",
+        "assets/js/masonry.pkgd.min.js",
+        "assets/js/classie.js",
+        "assets/js/cbpGridGallery.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
       }
+
     }
+
   ],
   "e2e": {
     "protractor": {
       "config": "./protractor.conf.js"
     }
+
   },
   "lint": [
     {
@@ -44,14 +56,19 @@
     {
       "project": "e2e/tsconfig.e2e.json"
     }
+
   ],
   "test": {
     "karma": {
       "config": "./karma.conf.js"
     }
+
   },
   "defaults": {
     "styleExt": "css",
     "component": {}
+
   }
+
 }
+
