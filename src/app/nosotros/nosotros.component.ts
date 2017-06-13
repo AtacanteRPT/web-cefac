@@ -14,7 +14,7 @@ export class NosotrosComponent implements OnInit {
   ngOnInit() {
     // this.appComponent.cambioTab('Nosotros');
 
-    this.generalService.cargarScript();
+    this.generalService.cargarScriptGrid();
   }
 
 }

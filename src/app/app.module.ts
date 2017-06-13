@@ -3,6 +3,10 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+// prime ng
+
+import {FieldsetModule} from 'primeng/primeng';
+
 import { AppComponent } from './app.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { InicioComponent } from './inicio/inicio.component';
@@ -25,7 +29,8 @@ import { CriticasComponent } from './criticas/criticas.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FieldsetModule
   ],
   providers: [
     GeneralService

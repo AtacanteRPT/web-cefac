@@ -47,7 +47,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.generalService.cargarScript();
+   // this.generalService.cargarScriptGrid();
 
     this._router.events.subscribe((url: any) => {
       let ruta = this._router.url.substring(1, this._router.url.length);

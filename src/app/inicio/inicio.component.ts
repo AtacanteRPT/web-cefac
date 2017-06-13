@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {AppComponent} from '../app.component'
+import { GeneralService} from '../general.service'
 @Component({
   selector: 'app-inicio',
   templateUrl: './inicio.component.html',
@@ -7,10 +8,10 @@ import {AppComponent} from '../app.component'
 })
 export class InicioComponent implements OnInit {
 
-  constructor(private appComponent: AppComponent) { }
+  constructor(private appComponent: AppComponent, private generalService: GeneralService) { }
 
   ngOnInit() {
-    // this.appComponent.cambioTab('Inicio');
+    this.generalService.cargarScriptScrolling();
   }
 
 }

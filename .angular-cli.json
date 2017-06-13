@@ -24,12 +24,15 @@
         "assets/css/component.css"
       ],
       "scripts": [
-        "assets/js/tabsScript.js",
+        "assets/js/modernizr.custom-2.js",
         "assets/js/modernizr.custom.js",
         "assets/js/imagesloaded.pkgd.min.js",
         "assets/js/masonry.pkgd.min.js",
         "assets/js/classie.js",
-        "assets/js/cbpGridGallery.js"
+        "assets/js/jquery.min.js",
+        "assets/js/jquery.easing.min.js",
+        "assets/js/waypoints.min.js",
+        "assets/js/jquery.debouncedresize.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
