@@ -21,8 +21,6 @@
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
-    "@progress/kendo-angular-buttons": "^1.0.1",
-    "@progress/kendo-angular-l10n": "^1.0.0",
     "ag-grid": "^10.0.1",
     "core-js": "^2.4.1",
     "primeng": "^4.0.3",

@@ -1,7 +1,7 @@
 
 .codrops-header {
 	margin: 0 auto;
-	padding: 9em 2em;
+	padding: 3em 10em;
 	text-align: center;
 	background: #444;
 	color: #f2f8f8;
@@ -201,8 +201,18 @@ svg.polaroid rect {
 @media screen and (max-width: 45em) {
 	.codrops-header, 
 	.description {
-		font-size: 80%;
+		font-size: 60%;
 	}
+
+.codrops-header {
+	margin: 0 auto;
+	padding: 3em 0.5em;
+	text-align: center;
+	background: #444;
+	color: #f2f8f8;
+	position: relative;
+	overflow: hidden;
+}
 
 	.description {
 		padding: 4em 1.5em;

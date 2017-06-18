@@ -54,8 +54,8 @@
 }
 
 .tabs nav li.tab-current {
-	border: 1px solid #0054f6;
-	box-shadow: inset 0 2px #0054f6;
+	border: 1px solid #070387;
+	box-shadow: inset 0 2px #070387;
 	border-bottom: none;
 	z-index: 100;
 }
@@ -68,7 +68,7 @@
 	right: 100%;
 	bottom: 0;
 	width: 1000px;
-	background: #0054f6;
+	background: #070387;
 }
 
 .tabs nav li.tab-current:after {
@@ -91,7 +91,7 @@
 }
 
 .tabs nav li.tab-current a {
-	color: #0054f6;
+	color: #070387;
 }
 
 /* Icons */
@@ -571,7 +571,7 @@ span.nav-close:before {
 .row .col {
   float: left;
   box-sizing: border-box;
-  padding: 0 0rem;
+  padding: 0.4 0em;
   min-height: 1px;
 }
 
@@ -973,23 +973,71 @@ html,body,
 
 #fbsection1 {
 	/*background-image: url(../../assets/img/1.jpg);*/
-	background-image: url(../../assets/img/todos.jpg);
+	/*background-image: url(../../assets/img/todos.jpg);*/
+}
+
+@media screen and (max-width: 45em) {
+
+			#fbsection2 {
+			background-image: url(../../assets/img/biologia.jpg);
+			background-position-y: 4em;
+ 			background-size: 200%
+		}
+
+		#fbsection3 {
+			background-image: url(../../assets/img/quimica.jpg);
+				background-size: 200%;
+					background-position-y: 4em;
+		}
+
+		#fbsection4 {
+			background-image: url(../../assets/img/fisica.jpg);
+				background-size: 200%;
+					background-position-y: 4em;
+		}
+
+		#fbsection5 {
+			background-image: url(../../assets/img/info.jpg);
+				background-size: 200%;
+					background-position-y: 4em;
+		}
+
+		#fbsection6 {
+			background-image: url(../../assets/img/estadistica.jpg);
+				background-size: 200%;
+					background-position-y: 4em;
+		}
+
+		#fbsection7 {
+			background-image: url(../../assets/img/matematica.jpg);
+				background-size: 200%;
+					background-position-y: 4em;
+		}
+
 }
 
 #fbsection2 {
-	background-image: url(../../assets/img/2.jpg);
+	background-image: url(../../assets/img/biologia.jpg);
 }
 
 #fbsection3 {
-	background-image: url(../../assets/img/3.jpg);
+	background-image: url(../../assets/img/quimica.jpg);
 }
 
 #fbsection4 {
-	background-image: url(../../assets/img/4.jpg);
+	background-image: url(../../assets/img/fisica.jpg);
 }
 
 #fbsection5 {
-	background-image: url(../../assets/img/5.jpg);
+	background-image: url(../../assets/img/info.jpg);
+}
+
+#fbsection6 {
+	background-image: url(../../assets/img/estadistica.jpg);
+}
+
+#fbsection7 {
+	background-image: url(../../assets/img/matematica.jpg);
 }
 
 /****************************/
